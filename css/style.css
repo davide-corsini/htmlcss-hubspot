@@ -7,6 +7,8 @@
 body{
   font-family: 'Roboto', sans-serif;
   color: #4c5e6f;
+  background-color: #f5f8fa;
+
 }
 /* ------------------------------- */
 /* /GENERAL RULES START*/
@@ -205,8 +207,46 @@ nav{
 
 .row{
   height: 400px;
-  background-color: violet;
-  border: 2px solid yellow;
+}
+
+/* FIRST ROW */
+.row.first{
+  text-align: center;
+}
+
+.cubo-text{
+  width: 25%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cubo.img{
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+}
+/* ------------------ */
+/* end first row/ */
+.row.second .learn{
+  height: 400px;
+}
+.row.second .learn.more{
+  width: 30%;
+  /* delete */
+  border: 1px solid black;
+}
+
+.row.second .learn.feature{
+  width: 70%;
+  /* delete */
+  border: 1px solid black;
+
 }
 
 
