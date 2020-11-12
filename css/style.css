@@ -9,7 +9,6 @@
 .container{
   width: 80%;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .float-left{
@@ -22,7 +21,9 @@
   clear: both;
 }
 
-
+.relative{
+  position: relative;
+}
 
 /* ------------------------------- */
 /* /GENERAL RULES END*/
@@ -32,32 +33,65 @@
 /* START HEADER */
 /* ------------------------------- */
 header{
-  /* delete */
-  background-color: lightgreen;
-  /* delete */
-
+  background-color: #fff3ee;
 }
+
+
 nav{
   height: 200px;
 }
 
 .nav-top, .nav-bottom{
   height: 50%;
-  /* delete */
-  border: 3px solid black;
-  /* delete */
-
+  background-color: lightgreen;
 }
 
-section{
-  background-color: green;
+
+/* box nav-top */
+.nav-top-col, .nav-bottom-col{
+  width: 50%;
+  height: 100px;
+  background-color: lightpink;
+  border: 1px solid black;
 }
 
+.nav-top-col ul li, .nav-bottom-col.dx ul li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav-top-col ul, .nav-bottom-col.dx ul{
+  line-height: 100px;
+}
+
+.nav-top-col.dx ul, .nav-bottom-col.dx ul{
+  text-align: right;
+}
+
+
+
+/* start jumbotron */
 .jumbotron{
-  height: 400px;
+  width: 100%;
+  height: 700px;
+  background-image: url('../img/jumbotron.png');
+  background-position: 100%, 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
   /* delete */
-  background-color: lightblue;
-    /* delete */
+  border: 1px solid black;
+  /* /delete */
+}
+
+.layoutrow{
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, #afebe4, #35c4b0, #009e88);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* ------------------------------- */
