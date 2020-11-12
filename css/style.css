@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+header{
+  /* delete */
+  background-color: lightgreen;
+  /* delete */
+
+}
+nav{
+  height: 200px;
+}
+
+.nav-top, .nav-bottom{
+  height: 50%;
+  /* delete */
+  border: 3px solid black;
+  /* delete */
+
+}
+
+section{
+  background-color: green;
+}
+
+.jumbotron{
+  height: 400px;
+  /* delete */
+  background-color: lightblue;
+    /* delete */
+}
+
+/* ------------------------------- */
+/* HEADER */
+/* ------------------------------- */
+
+/* ------------------------------- */
+/* MAIN START */
+/* ------------------------------- */
+
+.row{
+  height: 400px;
+  background-color: violet;
+  border: 2px solid yellow;
+}
+
+
+/* --------- */
+/* RIGA 3 */
+.box{
+  width: calc((100% / 3) - 20px);
+  background-color: green;
+  margin: 10px 10px;
+  height: calc(400px - 20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: brown;
+  height: 400px;
+}
+
+footer .container{
+  height: 100%;
+  background-color: red;
+}
