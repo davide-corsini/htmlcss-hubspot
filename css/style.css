@@ -3,9 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #4c5e6f;
+}
 /* ------------------------------- */
 /* /GENERAL RULES START*/
 /* ------------------------------- */
+
 .container{
   width: 80%;
   margin: 0 auto;
@@ -28,6 +34,16 @@
 a{
   text-decoration: none;
   color: #4c475b;
+}
+
+.btn{
+  border-radius: 8px;
+}
+
+.btn.orange{
+  background-color: #ff7a59;
+  color: white;
+  padding: 10px 15px;
 }
 
 
@@ -98,6 +114,14 @@ nav{
   margin-right: 10px;
 }
 
+#push-login{
+  background-color: white;
+  color: #ff7a59;
+  border-radius: 8px;
+  border: 2px solid #ff7a59;
+  padding: 10px 15px;
+  margin-right: 20px;
+}
 
 .nav-bottom-col.dx ul li{
   padding-left: 40px;
