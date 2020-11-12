@@ -27,7 +27,9 @@
 
 a{
   text-decoration: none;
+  color: #4c475b;
 }
+
 
 /* ------------------------------- */
 /* /GENERAL RULES END*/
@@ -50,10 +52,21 @@ nav{
   height: 50%;
 }
 
+.nav-top{
+  background-color: #f5f8fa;
+}
+
 .nav-bottom{
   border-top: 2px solid black;
 }
 
+.sx ul li a{
+  padding-right: 30px;
+}
+
+.dx ul li a{
+  padding-left: 18px;
+}
 
 /* box nav-top */
 .nav-top-col, .nav-bottom-col{
@@ -80,14 +93,11 @@ nav{
   text-align: right;
 }
 
-
-.sx ul li{
-  padding-right: 25px;
+#board{
+  border-right: 2px solid #4c475b;
+  margin-right: 10px;
 }
 
-.dx ul li{
-  padding-left: 18px;
-}
 
 .nav-bottom-col.dx ul li{
   padding-left: 40px;
@@ -145,6 +155,7 @@ nav{
   font-size: 24px;
   line-height: 1.6;
   margin-bottom: 20px;
+  color:   color: #4c475b;
 }
 
 .information-title a{
