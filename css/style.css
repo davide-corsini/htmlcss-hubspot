@@ -78,9 +78,6 @@ nav{
   background-position: 100%, 70%;
   background-size: contain;
   background-repeat: no-repeat;
-  /* delete */
-  border: 1px solid black;
-  /* /delete */
 }
 
 .layoutrow{
@@ -93,6 +90,38 @@ nav{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
+
+.information-title{
+  width: 35%;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.information-title h1{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.information-title p{
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.information-title a{
+  text-align: center;
+  font-size: 40px;
+}
+
+.information-title h4{
+  margin-top: 25px;
+}
+
+
+
+
+
 
 /* ------------------------------- */
 /* HEADER */
