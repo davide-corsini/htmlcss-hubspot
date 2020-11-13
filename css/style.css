@@ -315,12 +315,7 @@ section.second{
   margin-bottom: 5px;
   margin-left: 40px;
 }
-/* --------------------------------
-da fare la barra
----------------------------
---------------------------------
-da fare la barra
---------------------------- */
+
 ul.item-contacts li{
   display: inline-block;
   padding-right: 60px;
@@ -328,6 +323,7 @@ ul.item-contacts li{
 }
 ul.item-contacts i{
   color: #ff7a59;
+  padding-right: 5px;
 }
 
 /* ---end second row------ */
@@ -417,14 +413,21 @@ ul.menu-box li i{
 
 .statistics{
   width: 20%;
-  height: 100%;
+  height: 200px;
   background-color: red;
   border: 1px solid black;
+  /* da togliere */
+
 }
 
 .margin{
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.statistics ul{
+  text-align: center;
+
 }
 /* ------- */
 /* inizio table */
