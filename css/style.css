@@ -63,7 +63,7 @@ nav{
    background-color: white;
 }
 
-.nav-top-col, .nav-bottom-col{
+.nav-top-col{
   width: 50%;
   height: 100px;
 }
@@ -97,11 +97,19 @@ ul li{
 
 /* ------------ */
 /* nav.bottom layout */
+
 .nav-bottom{
   width: 100%;
   height: 100px;
   border-top: 2px solid black;
   margin-top: 102px;
+}
+
+.nav-bottom-col.sx{
+  width: 30%;
+}
+.nav-bottom-col.dx{
+  width: 70%;
 }
 
 .nav-bottom-col.sx img{
@@ -145,8 +153,8 @@ ul li{
   width: 100%;
   height: 700px;
   background-image: url('../img/jumbotron.png');
-  background-position: 100%, 70%;
-  background-size: contain;
+  background-position: 50%, 70%;
+  background-size: cover;
   background-repeat: no-repeat;
   box-shadow: inset 0 5px 8px rgba(0,0,0,0.3);
 }
@@ -285,7 +293,6 @@ section.second{
   margin-top: 70px;
   font-size: 25px;
   color: #33475b;
-
 }
 
 .learn.feature p{
@@ -294,13 +301,19 @@ section.second{
   line-height: 1.6;
   /* font-size: 15px; */
 }
-.learn.feature #popular{
+.learn.feature .popular{
   text-transform: uppercase;
   color: #33475b;
+  /* delete */
+  background-color: pink;
+  /* delete */
 }
-
-
-
+/* --------------------------------
+da fare la barra
+---------------------------
+--------------------------------
+da fare la barra
+--------------------------- */
 ul.item-contacts li{
   display: inline-block;
   padding-right: 60px;
