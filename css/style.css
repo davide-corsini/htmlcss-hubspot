@@ -299,13 +299,21 @@ section.second{
 
 .learn.feature p{
   margin-right: 15%;
-  background-color: blue;
   line-height: 1.6;
-  /* font-size: 15px; */
+  font-size: 15px;
 }
 .popular{
   text-transform: uppercase;
   color: #33475b;
+}
+
+#bar::after{
+  content: '';
+  display: inline-block;
+  border: 1px solid black;
+  width: 60%;
+  margin-bottom: 5px;
+  margin-left: 40px;
 }
 /* --------------------------------
 da fare la barra
@@ -318,7 +326,7 @@ ul.item-contacts li{
   padding-right: 60px;
   padding-left: 12px;
 }
-ul.item-contacts span{
+ul.item-contacts i{
   color: #ff7a59;
 }
 
@@ -349,7 +357,7 @@ ul.item-contacts span{
 .box *:not(li){
   margin-top: 10px;
 }
-ul.menu-box li span{
+ul.menu-box li i{
   color: #ff7a59;
   padding-right: 5px;
 }
@@ -380,42 +388,54 @@ ul.menu-box li span{
 /* /third row */
 
 /* start fourth row */
-.scatola{
-  height: 600px;
-  width: calc(100% / 3);
-  background-color: blue;
-  border: 1px solid white;
-  padding: 10px 10px;
-}
-
 /* /fourth row */
 
 /* start fifth row */
-.row.fifth{
+.row.fourth{
   height: 1000px;
+  color: white;
+  background: linear-gradient(to left, #00acb5,#00b2af,#00b6ab,#00bda5);
 }
+/* start subrow text */
 .subrow.text{
-  height: 20%;
+  height: 25%;
+  background-color: lightblue;
+  text-align: center;
 }
+.subrow.text {
+  padding: 50px;
+}
+.subrow.text > *{
+  margin: 40px 0;
+}
+/* /subrow-text */
 .subrow.details{
   width: 100%;
-  height: 40%;
-  background-color: pink;
+  height: 32.50%;
   border: 1px solid black;
 }
 
+.statistics{
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  border: 1px solid black;
+}
 
+.margin{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 /* ------- */
 /* inizio table */
 
-
+/*
 .statistics{
   width: calc(100% / 4);
   height: 60%;
-  background-color: red;
   border: 1px solid white;
   margin-top: 10%;
-}
+} */
 
 /* ------------------------------- */
 /* /MAIN END */
