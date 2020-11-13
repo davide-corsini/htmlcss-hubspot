@@ -80,11 +80,11 @@ nav{
 
 ul li{
     list-style: none;
-}
+    font-size: 14px;
+    }
 
 .nav-top-col ul li, .nav-bottom-col.dx ul li{
   display: inline-block;
-  font-size: 14px;
 }
 
 .sx ul li a{
@@ -222,6 +222,7 @@ ul li{
 .row.first{
   text-align: center;
   margin-top: 50px;
+  height: 400px;
 }
 
 .cubo-text{
@@ -274,11 +275,12 @@ section.second{
 
 .learn.more img{
   width: 200px;
+  height: 200px;
   margin-top: 40px;
 }
 
 .learn-btn {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .learn-btn a.btn.orange{
@@ -301,12 +303,9 @@ section.second{
   line-height: 1.6;
   /* font-size: 15px; */
 }
-.learn.feature .popular{
+.popular{
   text-transform: uppercase;
   color: #33475b;
-  /* delete */
-  background-color: pink;
-  /* delete */
 }
 /* --------------------------------
 da fare la barra
@@ -327,15 +326,57 @@ ul.item-contacts span{
 
 /* start third row */
 /* RIGA 3 */
+
+.row.third .box{
+  text-align: center;
+  padding: 20px;
+  box-shadow: inset 0px 0px 5px rgba(50,71,90,0.5);
+  border-radius: 8px;
+}
 .box{
-  width: calc(100% / 3);
+  width: 30%;
+  height: 650px;
   background-color: white;
-  /* delete */
-  border: 1px solid black;
-  /* delete */
-  height: calc(400px - 20px);
 }
 
+.box.sales{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.box > p{
+  line-height: 1.6;
+}
+.box *:not(li){
+  margin-top: 10px;
+}
+ul.menu-box li span{
+  color: #ff7a59;
+  padding-right: 5px;
+}
+
+.img-row-third{
+  width: 150px;
+}
+.img-hub{
+  width: 100%;
+  height: 200px;
+}
+.sales{
+  padding-top: 30px;
+}
+.menu-box{
+  text-align: left;
+  padding-left: 10%;
+  margin-top:
+}
+
+.box > .btn.orange{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 40px;
+}
 /* /third row */
 
 /* start fourth row */
