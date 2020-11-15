@@ -8,7 +8,6 @@ body{
   font-family: 'Roboto', sans-serif;
   color: #4c5e6f;
   background-color: #f5f8fa;
-
 }
 
 /* ------------------------------- */
@@ -39,7 +38,7 @@ body{
 
 a{
   text-decoration: none;
-  color: #4c475b;
+  color: #33475b;
 }
 
 .btn{
@@ -106,7 +105,7 @@ ul li{
   width: 100%;
   height: 100px;
   border-top: 2px solid black;
-  margin-top: 102px;
+  margin-top: 100px;
 }
 
 .nav-bottom-col.sx{
@@ -130,8 +129,17 @@ ul li{
   text-align: right;
 }
 
-#vertical-line{
-  margin-right: 8px;
+.nav-bottom-col.dx ul li i{
+  padding-left: 4px;
+}
+
+.vertical::after{
+  content: "\007C";
+  margin-left: 10px;
+}
+
+.nav-top-col.sx ul li i{
+  padding-right: 4px;
 }
 
 #push-login{
@@ -141,6 +149,11 @@ ul li{
   border: 2px solid #ff7a59;
   padding: 10px 15px;
   margin-right: 20px;
+}
+
+.search a{
+  margin-right: 15px;
+  color:#15abc2;
 }
 
 .nav-bottom-col.dx ul li{
@@ -190,7 +203,7 @@ ul li{
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 60px;
-  color:   color: #4c475b;
+  color: #4c475b;
 }
 
 .information-title a{
@@ -216,8 +229,8 @@ ul li{
 /* ------------------------------- */
 /* MAIN START */
 /* ------------------------------- */
-
-.row{
+/* -------GENERAL RULES OF MAIN---- */
+.row.second, .row.third{
   margin-bottom: 50px;
 }
 
@@ -258,8 +271,11 @@ ul li{
 }
 /* ------------------ */
 /* end first row/ */
+/* --------------------- */
 
+/* --------------------- */
 /* start second row */
+/* --------------------- */
 section.second{
   height: 350px;
   background-color: white;
@@ -289,11 +305,13 @@ section.second{
 .learn-btn a.btn.orange{
   padding: 20px 20px;
 }
+
 .learn.feature > *:not(fourth-child){
   margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 35px;
 }
+
 .learn.feature h2{
   margin-top: 70px;
   font-size: 25px;
@@ -305,6 +323,7 @@ section.second{
   line-height: 1.6;
   font-size: 15px;
 }
+
 .popular{
   text-transform: uppercase;
   color: #33475b;
@@ -328,12 +347,13 @@ ul.item-contacts i{
   color: #ff7a59;
   padding-right: 5px;
 }
-
-
+/* --------------------- */
 /* ---end second row------ */
+/* --------------------- */
 
+/* --------------------- */
 /* start third row */
-/* RIGA 3 */
+/* --------------------- */
 
 .row.third .box{
   text-align: center;
@@ -365,17 +385,19 @@ ul.menu-box li i{
 .img-row-third{
   width: 150px;
 }
+
 .img-hub{
   width: 100%;
   height: 200px;
 }
+
 .sales{
   padding-top: 30px;
 }
+
 .menu-box{
   text-align: left;
   padding-left: 10%;
-  margin-top:
 }
 
 .box > .btn.orange{
@@ -385,13 +407,17 @@ ul.menu-box li i{
   transform: translateX(-50%);
   padding: 20px 40px;
 }
+/* --------------------- */
 /* /third row */
+/* --------------------- */
 
+/* --------------------- */
 /* start fourth row */
-/* /fourth row */
+/* --------------------- */
+
 .row.fourth{
   width: 100%;
-  height: 780px;
+  height: 700px;
   color: white;
   background: linear-gradient(to left, #00acb5,#00b2af,#00b6ab,#00bda5);
 }
@@ -412,8 +438,6 @@ margin-bottom: 80px;
   border: none;
 }
 
-
-
 .statistics ul li{
   line-height: 1.6;
 }
@@ -430,16 +454,15 @@ margin-bottom: 80px;
 #img-small{
   width: 44px;
 }
+
 .subrow.text > *{
   margin: 40px 0;
 }
-
 
 ul.menu-details-bottom{
   border-top: 1px solid white;
   padding-top: 20px;
 }
-
 
 .statistics ul{
   border-right: 1px solid white;
@@ -448,15 +471,23 @@ ul.menu-details-bottom{
 .subrow.text {
   padding: 50px;
 }
+
 .statistics:nth-child(4n+0) ul{
   border-right: none;
 }
+/* --------------------- */
+/* end/ fourth row */
+/* --------------------- */
+
+
 /* ------------------------ */
 /* START FIFTH RAW */
 /* --------------------- */
 
 .row.fifth{
-  margin-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
 }
 
 .numbers, .partners{
@@ -476,14 +507,14 @@ ul.menu-details-bottom{
   font-size: 60px;
   font-weight: 700;
 }
+
 .numbers-text{
   text-align: center;
 }
+
 .partners{
   width: 60%;
 }
-
-
 
 /* layout img parterners */
 .special-partners{
@@ -501,16 +532,19 @@ ul.menu-details-bottom{
 ul.partners{
   text-align: right;
 }
-
-
 /* ---------------------------- */
-
+/* -----end fitfth row */
 /* ---------------------------- */
 
 
 /* ---------------------------- */
-
+      /* --START ROW SIX-- */
 /* ---------------------------- */
+.row.sixth{
+  background-color: #ffffff;
+}
+
+
 .join-left, .join-right{
   width: 50%;
   height: 500px;
@@ -539,9 +573,29 @@ ul.partners{
 .join-right{
   text-align: center;
 }
+
 #img-join{
   width: 60%;
   margin-top: 50px;
+}
+
+.hover-rotate {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 50%;
+  max-width: 85%;
+  width: 100%;
+}
+
+.hover-rotate img {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hover-rotate:hover img{
+  transform: scale(1.3) rotate(5deg)
 }
 
 .size-info{
@@ -553,17 +607,6 @@ ul.partners{
 /* /MAIN END */
 /* ------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------- */
 /* /FOOTER START*/
 /* ------------------------------- */
@@ -572,18 +615,24 @@ ul.partners{
   height: 500px;
 }
 
-footer > *, i, a{
+footer > *{
+  color: #cbd6e2;
+}
+
+footer a{
   color: #cbd6e2;
 }
 
 footer .container{
   height: 100%;
 }
+
 .information{
   width: 25%;
   height: 200px;
   padding: 10px 0px;
 }
+
 .information h4{
   margin-bottom: 20px;
 }
@@ -594,7 +643,6 @@ ul > *{
 ul > a{
   font-weight: 300;
 }
-
 
 .social{
   width: 300px;
@@ -612,6 +660,7 @@ ul > a{
   padding: 10px 15px;
   position: absolute;
   left: 0;
+  top: 10px;
 
 }
 
@@ -649,6 +698,12 @@ border-bottom: 1px solid #cbd6e2;
 .languages span a{
   padding: 0px 20px;
   line-height: 80px;
+  font-size: 10px;
+}
+
+.languages span a:hover{
+  color: white;
+  text-decoration: underline;
 }
 
 .img-copy, .privacy-policy{
@@ -662,10 +717,27 @@ border-bottom: 1px solid #cbd6e2;
   text-align: right;
   }
 
-  .privacy-policy span{
+  .privacy-policy span a{
     padding-left: 10px;
     font-weight: 200;
+  }
+
+  .information ul li a:hover{
+    text-decoration: underline;
   }
 /* ------------------------------- */
 /* /FOOTER END*/
 /* ------------------------------- */
+#button{
+    background-color: #4c5e6f;
+    color: #ffffff;
+    position: fixed;
+    right: 10%;
+    bottom: 1%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid white;
+  }

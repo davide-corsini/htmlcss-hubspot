@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/icon-256x256.png" type="image/x-icon">
   </head>
   <body>
     <!---------------------------->
@@ -21,14 +24,14 @@
                   <section class="container clearfix">
                       <div class="nav-top-col sx float-left">
                           <ul>
-                              <li><a href="#"><i class="fas fa-globe-europe"></i>English</a></li>
-                              <li><a href="#"><i class="fas fa-angle-down"></i>                              <span id="vertical-line">&VerticalLine;</span>Contact us</a></li>
+                              <li><i class="fas fa-globe-europe"></i>English<a class="vertical" href="#"></a></li>
+                              <li><a href="#"><i class="fas fa-user-circle"></i>Contact us</a></li>
                           </ul>
                       </div>
-
                       <div class="nav-top-col dx float-left">
                           <ul>
-                              <li class="login"><a id="push-login" href="#"><i class="fas fa-search"></i>Log in</a></li>
+                              <li class="search"><a href="#"><i class="fas fa-search"></i></a></li>
+                              <li class="login"><a id="push-login" href="#">Log in</a></li>
                               <li><a class="btn orange" href="#">GetHubspot free</a></li>
                           </ul>
                       </div>
@@ -39,23 +42,23 @@
               <!-- start nav-bottom -->
               <div class="nav-bottom">
                   <section class="container clearfix">
+                      <!-- start nav-bottom left -->
                       <div class="nav-bottom-col sx float-left">
                           <img src="img/logo.svg" alt="logo-hubspot">
                       </div>
+                      <!-- /nav-bottom-left -->
+
+                      <!-- start nav-bottom-right -->
                       <div class="nav-bottom-col dx float-left">
                           <ul>
-                              <li><a href="#">Software</a></li>
-                              <span><i class="fas fa-angle-down"></i></span>
-                              <li><a href="#">Pricing</a></li>
-                              <span><i class="fas fa-angle-down"></i></span>
-                              <li><a href="#">Resources</a></li>
-                              <span><i class="fas fa-angle-down"></i></span>
-                              <li><a href="#">Partners</a></li>
-                              <span><i class="fas fa-angle-down"></i></span>
-                              <li><a href="#">About</a></li>
-                              <span><i class="fas fa-angle-down"></i></span>
+                              <li><a href="#">Software</a><i class="fas fa-angle-down"></i></li>
+                              <li><a href="#">Pricing</a><i class="fas fa-angle-down"></i></li>
+                              <li><a href="#">Resources</a><i class="fas fa-angle-down"></i></li>
+                              <li><a href="#">Partners</a><i class="fas fa-angle-down"></i></li>
+                              <li><a href="#">About</a><i class="fas fa-angle-down"></i></li>
                           </ul>
                       </div>
+                      <!-- /nav-bottom-right -->
                   </section>
               </div>
               <!-- /nav-bottom -->
@@ -108,8 +111,6 @@
                       <h3 class="popular relative">popular feature
                           <span id="bar"></span>
                       </h3>
-
-
                       <ul class="item-contacts">
                           <li><i class="fas fa-check-circle"></i>Contact Insight</li>
                           <li><i class="fas fa-check-circle"></i>Deals</li>
@@ -119,7 +120,9 @@
               </section>
               <!-- /second row -->
 
-              <!-- third row -->
+              <!--------------------------------------------------------->
+                <!-- start-third row -->
+              <!--------------------------------------------------------->
               <section class="row third container clearfix">
                 <!-- start marketing's box -->
                   <div class="box marketing float-left relative">
@@ -131,7 +134,6 @@
                       <hr>
                       <h3 class="popular">popular feature</h3>
                       <ul class="menu-box">
-
                           <li><a href="#"><i class="fas fa-check-circle"></i>Lead generation</a></li>
                           <li><a href="#"><i class="fas fa-check-circle"></i>Marketing automation</a> </li>
                           <li><a href="#"><i class="fas fa-check-circle"></i>Analytics</a></li>
@@ -177,13 +179,14 @@
                   <!--/services's box -->
 
               </section>
+              <!--------------------------------------------------------->
               <!-- /third row -->
               <!--------------------------------------------------------->
+
+
               <!--------------------------------------------------------->
-
-
-
-              <!--start fourth row -->
+              <!-- start fourth row (table dates) -->
+              <!--------------------------------------------------------->
               <section class="row fourth clearfix relative">
                   <div class="subrow container text">
                       <h2>Learn and grow with award-winning support and a thriving community behind you.</h2>
@@ -266,9 +269,13 @@
 
                   </div>
               </section>
-              <!-- /fourth row -->
+              <!--------------------------------------------------------->
+              <!-- / fourth row (table dates) -->
+              <!--------------------------------------------------------->
 
-              <!-- start fifth row -->
+              <!--------------------------------------------------------->
+              <!-- start fifth row-->
+              <!--------------------------------------------------------->
               <section class="row fifth">
                   <div class="container clearfix">
                       <div class="numbers float-left relative">
@@ -313,7 +320,14 @@
                       </div>
                   </div>
               </section>
-              <!-- /fifth row -->
+              <!--------------------------------------------------------->
+              <!-- / fifth row-->
+              <!--------------------------------------------------------->
+
+
+              <!--------------------------------------------------------->
+              <!-- start sixth row-->
+              <!--------------------------------------------------------->
               <section class="row sixth">
                   <div class="container clearfix">
                       <div class="join-left float-left relative">
@@ -323,16 +337,19 @@
                           <p class="size-info">Get started with FREE tools, or get more with our premium software.</p>
                       </div>
 
-                      <div class="join-right float-left">
-                          <img id="img-join" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sg-module-images/11@2x.png" alt="">
+                      <div class="join-right relative float-left">
+                          <div class="hover-rotate ">
+                              <img id="img-join" src="https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sg-module-images/11@2x.png" alt="">
+                          </div>
                       </div>
-
                   </div>
-
               </section>
+              <!--------------------------------------------------------->
+              <!-- /sixth row-->
+              <!--------------------------------------------------------->
       </main>
       <!---------------------------->
-      <!-- / main -->
+      <!-- / MAIN -->
       <!---------------------------->
 
       <!---------------------------->
@@ -434,34 +451,34 @@
               </div>
 
               <div class="social">
-                <a class="btn grey main final" href="#">Contact HubSpot Support</a>
-                    <div class="icon-social">
-                        <span>
-                            <a href="#">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </span>
-                        <span>
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </span>
-                    </div>
+                  <a class="btn grey main final" href="#">Contact HubSpot Support</a>
+                  <div class="icon-social">
+                      <span>
+                          <a href="#">
+                              <i class="fab fa-facebook-square"></i>
+                          </a>
+                      </span>
+                      <span>
+                          <a href="#">
+                              <i class="fab fa-instagram"></i>
+                          </a>
+                      </span>
+                      <span>
+                          <a href="#">
+                              <i class="fab fa-youtube"></i>
+                          </a>
+                      </span>
+                      <span>
+                          <a href="#">
+                              <i class="fab fa-twitter"></i>
+                          </a>
+                      </span>
+                      <span>
+                          <a href="#">
+                              <i class="fab fa-linkedin-in"></i>
+                          </a>
+                      </span>
+                  </div>
 
               </div>
               <div class="copyright">
@@ -470,16 +487,16 @@
                           <a href="#">English</a>
                       </span>
                       <span>
-                          <a href="#">Spanish</a>
+                          <a href="#">Español</a>
                       </span>
                       <span>
-                          <a href="#">Italino</a>
+                          <a href="#">Italian</a>
                       </span>
                       <span>
-                          <a href="#">German</a>
+                          <a href="#">中文</a>
                       </span>
                       <span>
-                          <a href="#">Portuguese</a>
+                          <a href="#">русский</a>
                       </span>
                   </div>
                   <div class="img-copy float-left">
@@ -495,12 +512,12 @@
                           <a href="#">Privacy Policy</a>
                       </span>
                   </div>
-
               </div>
           </section>
       </footer>
       <!---------------------------->
       <!--/footer -->
       <!---------------------------->
+      <a id="button" href="#">HUB</a>
   </body>
 </html>
